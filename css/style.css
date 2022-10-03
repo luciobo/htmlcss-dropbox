@@ -10,14 +10,52 @@ body {
 
 /* ---------------------  Modifiche a tag */
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
 ul {
     list-style: none;
+}
 
+li {
+    padding: 8px 
 }
 
 a {
     text-decoration: none;
+    font-size: 14px;
 }
+
+a:hover {
+    color: green;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* ---------------------- button */
+
+.button {
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    background-color: rgb(32, 101, 246); 
+}
+
+.button:hover {
+    background-color: red;
+}
+
 
 /* ----------------------  modifiche nav */
 
@@ -25,9 +63,14 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px;
+    
 }
 
 .nav-align {
     display: flex;
-    justify-content:flex-start
+    justify-content:center;
+    align-items: center;
 }
+
+
+
