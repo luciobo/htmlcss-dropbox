@@ -8,8 +8,26 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* ---------------------  Modifiche a tag */
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----------------------  modifiche nav */
+
 .nav-mod {
     display: flex;
-    justify-content: space-around;
-    padding: ;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.nav-align {
+    display: flex;
+    justify-content:flex-start
 }
