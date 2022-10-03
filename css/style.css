@@ -25,12 +25,13 @@ ul {
 }
 
 li {
-    padding: 8px 
+
 }
 
 a {
     text-decoration: none;
     font-size: 14px;
+    padding: 16px;
 }
 
 a:hover {
@@ -45,7 +46,7 @@ img {
 
 h1 {
     font-size: 65px;
-    padding: 40px 0px;
+    padding: 20px 0px 40px;
 }
 
 
@@ -85,7 +86,7 @@ h1 {
 .nav-mod {
     display: flex;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 18px 15px;
     
 }
 
@@ -102,6 +103,8 @@ h1 {
 .conteiner-large {
     max-width: 1100px;
     margin: 0 auto;
+    position: relative;
+    top: 60px;
 }
 
 .resize-box-40 {
@@ -114,6 +117,17 @@ h1 {
 
 .main-flex {
     display: flex;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arrow-size {
+    font-size: 40px;
+    padding: 30px 0px 70px;
 }
 
 
