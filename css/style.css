@@ -55,6 +55,9 @@ h2 {
     padding: 60px 0px;
 }
 
+h5 {
+    padding: 20px 0px;
+}
 
 /* ---------------------- button */
 
@@ -119,7 +122,7 @@ h2 {
 
 .all-jumbotron {
     position: relative;
-top: 60px;
+    top: 60px;
 }
 
 .resize-box-40 {
@@ -140,9 +143,17 @@ top: 60px;
     justify-content: space-between;
 }
 
+
+
+/* ---------------------- modifiche icone */
+
 .arrow-size {
     font-size: 40px;
     padding: 30px 0px 70px;
+}
+
+.ceck-blue {
+    color:  rgb(32, 101, 246);
 }
 
 
@@ -158,3 +169,27 @@ main section {
     padding: 20px 0px;
 }
 
+/* ---------------- modifiche preima sezione colonne */
+
+.intest-colonne {
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 4px 0px;
+}
+
+.col-conteiner {
+    width: 30%;
+}
+
+.col-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.corpo-colonne {
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 30px 12px;
+}
