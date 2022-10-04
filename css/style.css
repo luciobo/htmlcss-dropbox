@@ -38,8 +38,9 @@ a:hover {
     color: green;
 }
 
-img {
+.img-size {
     width: 100%;
+    display: block;
 }
 
 /* ---------------------- dimensioni titoli */
@@ -47,6 +48,11 @@ img {
 h1 {
     font-size: 65px;
     padding: 20px 0px 40px;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 60px 0px;
 }
 
 
@@ -69,9 +75,9 @@ h1 {
 .button-large {
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 8px;
-    padding: 8px;
+    padding: 14px;
     color: white;
     background-color: rgb(32, 101, 246); 
 }
@@ -103,8 +109,17 @@ h1 {
 .conteiner-large {
     max-width: 1100px;
     margin: 0 auto;
+
+}
+
+.conteiner-small {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.all-jumbotron {
     position: relative;
-    top: 60px;
+top: 60px;
 }
 
 .resize-box-40 {
@@ -136,4 +151,10 @@ h1 {
 .fill {
     background-color: rgb(185, 208, 229); 
     margin-top: 67.5px;
+    margin-bottom: 30px;
 }
+
+main section {
+    padding: 20px 0px;
+}
+
