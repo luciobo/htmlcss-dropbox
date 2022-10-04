@@ -24,9 +24,6 @@ ul {
     list-style: none;
 }
 
-li {
-
-}
 
 a {
     text-decoration: none;
@@ -41,6 +38,10 @@ a:hover {
 .img-size {
     width: 100%;
     display: block;
+}
+
+hr {
+    width: 20%;
 }
 
 /* ---------------------- dimensioni titoli */
@@ -191,5 +192,9 @@ main section {
     border-bottom: 1px solid lightgray;
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
-    padding: 30px 12px;
+    padding: 30px 20px;
+}
+
+.li-align {
+    margin-left: 50px;
 }
