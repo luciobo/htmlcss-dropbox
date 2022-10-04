@@ -134,6 +134,14 @@ h5 {
     width: 60%;
 }
 
+.resize-box-30 {
+    width: 30%;
+}
+
+.resize-box-70 {
+    width: 70%;
+}
+
 .main-flex {
     display: flex;
 }
@@ -196,5 +204,5 @@ main section {
 }
 
 .li-align {
-    margin-left: 50px;
+    
 }
