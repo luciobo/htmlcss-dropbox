@@ -154,6 +154,13 @@ h5 {
     justify-content: space-between;
 }
 
+.col-flex-sotto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 40px 80px;
+}
+
 .pad-20 {
     padding: 20px 0px;
 }
@@ -181,7 +188,7 @@ h5 {
 }
 
 main section {
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 
 /* ---------------- modifiche preima sezione colonne */
@@ -190,10 +197,21 @@ main section {
     border: 1px solid lightgray;
     text-align: center;
     padding: 4px 0px;
+    font-size: 12px;
 }
 
 .col-conteiner {
     width: 30%;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    font-size: 14px;
+}
+
+.col-conteiner-bott {
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
 }
 
 .col-wrap {
@@ -203,9 +221,6 @@ main section {
 }
 
 .corpo-colonne {
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
     padding: 30px 20px;
 }
 
