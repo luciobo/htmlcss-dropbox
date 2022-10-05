@@ -106,6 +106,20 @@ h5 {
     background-color: green;
 }
 
+.button-large-w {
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 14px 50px;
+    margin: 60px 0;
+    background-color:white; 
+}
+
+.button-large-w:hover {
+    background-color: green;
+}
+
 
 /* ----------------------  modifiche nav */
 
@@ -211,6 +225,11 @@ h5 {
     background-color: rgb(185, 208, 229); 
     margin-top: 67.5px;
     margin-bottom: 30px;
+}
+
+.fill-bottom {
+    background-color: rgb(185, 208, 229); 
+    margin: -20px;
 }
 
 main section {
