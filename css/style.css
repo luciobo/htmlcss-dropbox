@@ -133,6 +133,10 @@ h5 {
     width: 40%;
 }
 
+.resize-box-50 {
+    width: 50%;
+}
+
 .resize-box-60 {
     width: 60%;
 }
@@ -230,4 +234,17 @@ ul#li-colonne li {
     display: flex;
     padding: 10px 0px;
     gap: 4px;
+}
+
+/* -------------------  sezione card */
+
+.card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    row-gap: 10px;
+}
+
+.card-conteiner {
+    
 }
