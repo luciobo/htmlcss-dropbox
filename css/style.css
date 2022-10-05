@@ -41,6 +41,19 @@ a:hover {
     object-fit: contain;
 }
 
+.img-size-small {
+    width: 50%;
+    display: block;
+    object-fit: contain;
+}
+
+.img-size-inv {
+    width: 60%;
+    display: block;
+    object-fit: contain;
+    filter: invert();
+}
+
 hr {
     width: 20%;
     margin: 30px 0px;
@@ -129,6 +142,14 @@ h5 {
     top: 60px;
 }
 
+.resize-box-30 {
+    width: 30%;
+}
+
+.resize-box-33 {
+    width: 33.3%;
+}
+
 .resize-box-40 {
     width: 40%;
 }
@@ -139,10 +160,6 @@ h5 {
 
 .resize-box-60 {
     width: 60%;
-}
-
-.resize-box-30 {
-    width: 30%;
 }
 
 .resize-box-70 {
@@ -241,10 +258,29 @@ ul#li-colonne li {
 .card-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    row-gap: 10px;
+    justify-content: space-between;
+    gap: 0px;
+    row-gap: 40px;
 }
 
-.card-conteiner {
-    
+
+/* ---------------   sezione link quadrati */
+
+
+.main-ratio {
+    aspect-ratio: 1/1;
+}
+
+.box-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0px;
+    row-gap: 0px;
+}
+
+.box-flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
