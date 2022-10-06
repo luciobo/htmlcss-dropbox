@@ -339,7 +339,7 @@ ul#li-colonne li {
 }
 
 .overflow {
-    overflow: auto;
+    overflow: scroll;
 }
 
 
